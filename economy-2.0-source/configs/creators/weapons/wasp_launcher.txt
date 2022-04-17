@@ -1,0 +1,25 @@
+"Weapon"
+{
+	"{1fa2d10e-7cf1-4fca-b69c-ac7f47be23a6}" // we just need a unique identifier here
+	{
+		"name"				"The W.A.S.P Launcher"
+		"item_class"		"tf_weapon_rocketlauncher"
+		"defindex"			"205"
+		"used_by_classes"
+		{
+			"soldier"			"primary"
+		}
+		"keep_static_attrs"		"2"
+		
+		//// contains official attributes
+		"attributes_game"
+		{
+		}
+		
+		// Contains custom attributes
+		"attributes_custom"
+		{
+			"clientmodel override"		"models/weapons/c_models/c_wasp_launcher/c_wasp_launcher_1.mdl"
+		}
+	}
+}

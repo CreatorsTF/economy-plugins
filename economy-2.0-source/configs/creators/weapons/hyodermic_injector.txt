@@ -1,0 +1,34 @@
+"Weapon"
+{
+	"{9a422e30-34ca-45ab-b681-4f7295f92508}" // we just need a unique identifier here
+	{
+		"name"				"The Hypodermic Injector"
+		"item_class"		"tf_weapon_bonesaw"
+		"defindex"			"198"
+		"used_by_classes"
+		{
+			"medic"			"melee"
+		}
+		"keep_static_attrs"		"2"
+		
+		//// contains official attributes
+		"attributes_game"
+		{
+			"melee range multiplier"				"1.7"
+			"melee bounds multiplier"				"1.55"
+			"fire rate penalty"						"1.2"
+			"damage penalty"						"0.75"
+		}
+		
+		// Contains custom attributes
+		"attributes_custom"
+		{
+			"syringe blood mode"					"1"
+			"syringe blood mode capacity"			"500"
+			"syringe blood mode heal"				"180"
+			"syringe blood mode uber"				"4"
+			
+			"clientmodel override"					"models/weapons/c_models/c_hypodermic_injector/c_hypodermic_injector.mdl"
+		}
+	}
+}

@@ -1,0 +1,126 @@
+"MusicKit"
+{
+	"{3ecc4571-79be-4638-adbb-e0998e1c7b6d}"
+	{
+		"name"		"Gravel Slaughter"
+		"logic"
+		{
+			"broadcast"
+			{
+				"win"		"creators/music/kits/debut/round_win.wav"
+				"loss"		"creators/music/kits/debut/round_loss.wav"
+			}
+			"events"
+			{
+				"0"
+				{
+					"start_hook"		"OST_POINT_CAPTURE"
+					"samples"
+					{
+						"creators/music/kits/debut/point_capture.wav"
+						{
+							"duration"	"2.62"
+						}
+					}
+				}
+				"1"
+				{
+					"start_hook"	"OST_PAYLOAD_S1_START"
+					"stop_hook"		"OST_PAYLOAD_S1_CANCEL"
+					"priority"		"1"
+					"post_sample"
+					{
+						"sound" 	"creators/music/kits/debut/payload_1_decay.wav"
+						"duration" 	"9.32"
+					}
+					"samples"
+					{
+						"creators/music/kits/debut/payload_1_buildup.wav"
+						{
+							"duration"	"11.6"
+						}
+						"creators/music/kits/debut/payload_1_loop.wav"
+						{
+							"duration"		"9.3"
+							"iterations"	"5"
+						}
+						
+					}
+				}
+				"2"
+				{
+					"start_hook"	"OST_PAYLOAD_S2_START"
+					"stop_hook"		"OST_PAYLOAD_S2_CANCEL"
+					"priority"		"1"
+					"force_start"	"1"
+					"post_sample"
+					{
+						"sound" 	"creators/music/kits/debut/payload_2_decay.wav"
+						"duration" 	"9.2"
+					}
+					"samples"
+					{
+						"creators/music/kits/debut/payload_2_buildup.wav"
+						{
+							"duration"	"0.9"
+						}
+						"creators/music/kits/debut/payload_2_loop.wav"
+						{
+							"duration"		"9.3"
+							"iterations"	"16"
+						}
+					}
+				}
+				"3"
+				{
+					"start_hook"	"OST_PAYLOAD_CLIMAX"
+					"force_start"	"1"
+					"priority"		"1"
+					"samples"
+					{
+						"creators/music/kits/debut/payload_2_climax.wav"
+						{
+							"duration"	"6.89"
+						}
+					}
+				}
+				"4"
+				{
+					"start_hook"	"OST_ROUND_ALMOST_END"
+					"force_start"	"1"
+					"samples"
+					{
+						"creators/music/kits/debut/round_almost_end.wav"
+						{
+							"duration"	"23.3"
+						}
+					}
+				}
+				"5"
+				{
+					"start_hook"	"OST_ROUND_START"
+					"force_start"	"1"
+					"samples"
+					{
+						"creators/music/kits/debut/round_start.wav"
+						{
+							"duration"	"13.98"
+						}
+					}
+				}
+				"6"
+				{
+					"start_hook"	"OST_ROUND_SETUP"
+					"force_start"	"1"
+					"samples"
+					{
+						"creators/music/kits/debut/round_setup.wav"
+						{
+							"duration"	"48.93"
+						}
+					}
+				}
+			}
+		}
+	}
+}

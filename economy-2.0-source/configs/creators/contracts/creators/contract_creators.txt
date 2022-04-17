@@ -1,0 +1,104 @@
+"Contract"
+{
+	"{d3dc2236-1575-4c4c-bb0a-e4639b21a462}"
+	{
+		"name"		"Welcome to Creators!"
+		
+		// What classes can do this contract?
+		"classes"
+		{
+			"soldier"	"1"
+			"pyro"		"1"
+			"heavy"		"1"
+			"engineer"	"1"
+			"scout"		"1"
+			"demoman"	"1"
+			"sniper"	"1"
+			"medic"		"1"
+			"spy"		"1"
+		}
+		"objectives"
+		{
+			"1"
+			{
+				"description"		"Assist or kill an enemy on Creators.TF servers."
+				
+				// How many points required to complete this objective.
+				"required_progress"	"20"
+				
+				// The events that this objective looks out for.
+				"events"		
+				{
+					"CONTRACTS_PLAYER_KILL"
+					{
+						// What this event should do.
+						"type"		"increment"
+						
+						// How many times does this event need to trigger to add points?
+						"threshold"	"1"
+						
+						// How many points should we give for successfully doing this objective?
+						"award"		"1"
+					}
+					"CONTRACTS_PLAYER_ASSIST_KILL"
+					{
+						// What this event should do.
+						"type"		"increment"
+						
+						// How many times does this event need to trigger to add points?
+						"threshold"	"1"
+						
+						// How many points should we give for successfully doing this objective?
+						"award"		"1"
+					}
+				}
+			}
+			"2"
+			{
+				"description"		"Kill a player using a Custom Weapon."
+				
+				// How many points required to complete this objective.
+				"required_progress"	"7"
+				
+				// The events that this objective looks out for.
+				"events"		
+				{
+					"CONTRACTS_PLAYER_KILL_CUSTOMWEAPON"
+					{
+						// What this event should do.
+						"type"		"increment"
+						
+						// How many times does this event need to trigger to add points?
+						"threshold"	"1"
+						
+						// How many points should we give for successfully doing this objective?
+						"award"		"1"
+					}
+				}
+			}
+			"3"
+			{
+				"description"		"Dominate a player."
+				
+				// How many points required to complete this objective.
+				"required_progress"	"2"
+				
+				// The events that this objective looks out for.
+				"events"		
+				{
+					"CONTRACTS_PLAYER_DOMINATE"
+					{
+						// What this event should do.
+						"type"		"increment"
+						
+						// How many times does this event need to trigger to add points?
+						"threshold"	"3"
+						
+						// How many points should we give for successfully doing this objective?
+						"award"		"1"
+					}
+				}
+			}
+		}
+	}
+}

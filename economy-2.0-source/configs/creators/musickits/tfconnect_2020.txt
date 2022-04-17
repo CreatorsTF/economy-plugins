@@ -1,0 +1,125 @@
+"MusicKit"
+{
+	"{584b708d-a184-4861-b4a4-febfb071c76f}"
+	{
+		"name"		"Into The Center of the Earth"
+		"logic"
+		{
+			"broadcast"
+			{
+				"win"		"creators/music/kits/tfconnect2020/round_win.wav"
+				"loss"		"creators/music/kits/tfconnect2020/round_loss.wav"
+			}
+			"events"
+			{
+				"0"
+				{
+					"start_hook"		"OST_POINT_CAPTURE"
+					"samples"
+					{
+						"creators/music/kits/tfconnect2020/point_capture.wav"
+						{
+							"duration"	"10"
+						}
+					}
+				}
+				"1"
+				{
+					"start_hook"	"OST_PAYLOAD_S1_START"
+					"stop_hook"		"OST_PAYLOAD_S1_CANCEL"
+					"post_sample"
+					{
+						"sound" 	"creators/music/kits/tfconnect2020/payload_1_decay.wav"
+						"duration" 	"8.51"
+					}
+					"samples"
+					{
+						"creators/music/kits/tfconnect2020/payload_1_buildup.wav"
+						{
+							"duration"	"5.44"
+						}
+						"creators/music/kits/tfconnect2020/payload_1_loop.wav"
+						{
+							"duration"		"10.88"
+							"iterations"	"3"
+							"move_to_event"	"2"	// Move to event ID #2.
+						}
+					}
+				}
+				"2"
+				{
+					"start_hook"	"OST_PAYLOAD_S2_START"
+					"stop_hook"		"OST_PAYLOAD_S2_CANCEL"
+					"force_start"	"1"
+					"skip_post"		"1"
+					"post_sample"
+					{
+						"sound" 	"creators/music/kits/tfconnect2020/payload_2_decay.wav"
+						"duration" 	"5.45"
+					}
+					"samples"
+					{
+						"creators/music/kits/tfconnect2020/payload_2_buildup.wav"
+						{
+							"duration"	"1.37"
+						}
+						"creators/music/kits/tfconnect2020/payload_2_loop.wav"
+						{
+							"duration"		"21.78"
+							"iterations"	"4"
+						}
+					}
+				}
+				"3"
+				{
+					"start_hook"	"OST_PAYLOAD_CLIMAX"
+					"force_start"	"1"
+					"skip_post"		"1"
+					"samples"
+					{
+						"creators/music/kits/tfconnect2020/payload_2_climax.wav"
+						{
+							"duration"	"3.91"
+						}
+					}
+				}
+				"4"
+				{
+					"start_hook"	"OST_ROUND_ALMOST_END"
+					"force_start"	"1"
+					"samples"
+					{
+						"creators/music/kits/tfconnect2020/round_almost_end.wav"
+						{
+							"duration"	"22.85"
+						}
+					}
+				}
+				"5"
+				{
+					"start_hook"	"OST_ROUND_START"
+					"force_start"	"1"
+					"samples"
+					{
+						"creators/music/kits/tfconnect2020/round_start.wav"
+						{
+							"duration"	"10.02"
+						}
+					}
+				}
+				"6"
+				{
+					"start_hook"	"OST_ROUND_SETUP"
+					"force_start"	"1"
+					"samples"
+					{
+						"creators/music/kits/tfconnect2020/round_setup.wav"
+						{
+							"duration"	"53.418"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+"Weapon"
+{
+	"{1f4974ca-dd14-4596-abef-02e126f526b9}" // we just need a unique identifier here
+	{
+		"name"				"The Bloody Brick"
+		"item_class"		"tf_weapon_jar"
+		"defindex"			"58"
+		"used_by_classes"
+		{
+			"sniper"			"secondary"
+		}
+		"keep_static_attrs"		"2"
+		
+		//// contains official attributes
+		"attributes_game"
+		{
+			"effect bar recharge rate increased"		"0.5"
+		}
+		
+		// Contains custom attributes
+		"attributes_custom"
+		{
+			"proj is brick"				"1"
+			"brick speed"				"1.8"
+			"brick bleed"				"4"
+			"brick bleed min"			"3"
+			"brick bleed max"			"8"
+			"brick bleed dist"			"550"
+			"brick bleed dist min"		"400"
+			"full value damage bonus"	"25"
+			
+			"clientmodel override"		"models/weapons/c_models/c_brick/c_brick.mdl"
+		}
+	}
+}

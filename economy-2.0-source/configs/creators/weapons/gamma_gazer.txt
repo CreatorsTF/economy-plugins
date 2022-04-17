@@ -1,0 +1,34 @@
+"Weapon"
+{
+	"{94f01a19-e0c7-4655-8646-aa637dac2150}" // we just need a unique identifier here
+	{
+		"name"				"The Gamma Gazer"
+		"item_class"		"tf_weapon_pistol"
+		"defindex"			"30666"
+		"used_by_classes"
+		{
+			"engineer"		"secondary"
+		}
+		"keep_static_attrs"		"2"
+		
+		//// contains official attributes
+		"attributes_game"
+		{
+			"damage applies to sappers"				"1"
+			"weapon spread bonus"					"0.3"
+			"fire rate penalty"						"2.25"
+			"clip size penalty"						"0.5"
+			"maxammo secondary reduced"				"0.24"
+			"engineer building teleporting pickup"	"50"
+			"mark for death on building pickup"		"1"
+			"ragdolls_become_ash"					"1"
+		}
+		
+		// Contains custom attributes
+		"attributes_custom"
+		{
+			"fixed damage against sappers"			"34"
+			"clientmodel override"					"models/weapons/c_models/c_gamma_gazer/c_gamma_gazer_1.mdl"
+		}
+	}
+}

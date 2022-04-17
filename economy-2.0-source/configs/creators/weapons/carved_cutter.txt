@@ -1,0 +1,31 @@
+"Weapon"
+{
+	"{d0f15e4e-65fd-451b-94dd-8e0f7272ea7b}" // we just need a unique identifier here
+	{
+		"name"				"The Carved Cutter"
+		"item_class"		"tf_weapon_knife"
+		"defindex"			"727"
+		"used_by_classes"
+		{
+			"spy"			"melee"
+		}
+		"keep_static_attrs"		"2"
+		
+		//// contains official attributes
+		"attributes_game"
+		{
+			"max health additive penalty"	"-25"
+			"mult cloak rate"				"0.5"
+			"mult decloak rate"				"1.25"
+		}
+		
+		// Contains custom attributes
+		"attributes_custom"
+		{
+			"knife leap"				"1"
+			"knife leap distance"		"384"
+			
+			"clientmodel override"		"models/weapons/c_models/c_carvedcutter/c_carvedcutter.mdl"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+"Weapon"
+{
+	"{2d160e02-f488-4810-a51e-b8faefde50a1}" // we just need a unique identifier here
+	{
+		"name"				"The Scattershock"
+		"item_class"		"tf_weapon_scattergun"
+		"defindex"			"200"
+		"used_by_classes"
+		{
+			"scout"			"primary"
+		}
+		"keep_static_attrs"		"2"
+		
+		//// contains official attributes
+		"attributes_game"
+		{
+			"damage penalty"				"0.9"
+			"fire rate penalty"				"1.15"
+			"dmg penalty vs buildings"		"0.2"
+			"crits_become_minicrits"		"1"
+			"ragdolls_become_ash"			"1"
+		}
+		
+		// Contains custom attributes
+		"attributes_custom"
+		{
+			"charge shot with secondary"				"1"
+			"charge shot with secondary time"			"2.5"
+			"charge shot with secondary decay"			"1.5"
+			"charge shot with secondary damage"			"1.65"
+			"charge shot with secondary clip consume"	"3"
+			
+			"clientmodel override"		"models/weapons/c_models/c_lightning_sg/c_lightning_sg.mdl"
+		}
+	}
+}

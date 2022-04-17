@@ -1,0 +1,28 @@
+"Weapon"
+{
+	"{9f3ed525-7db6-488b-bdaf-5d976d33026d}" // we just need a unique identifier here
+	{
+		"name"				"Conjurer's Staff"
+		"item_class"		"saxxy"
+		"defindex"			"423"
+		"used_by_classes"
+		{
+			"scout"				"melee"
+			"soldier"			"melee"
+			"pyro"				"melee"
+			"demoman"			"melee"
+			"heavy"				"melee"
+			"engineer"			"melee"
+			"medic"				"melee"
+			"sniper"			"melee"
+			"spy"				"melee"
+		}
+		"keep_static_attrs"		"2"
+
+		// Contains custom attributes
+		"attributes_custom"
+		{
+			"clientmodel override"		"models/weapons/c_models/c_conjstaff/c_conjstaff.mdl"
+		}
+	}
+}

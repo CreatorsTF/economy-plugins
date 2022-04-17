@@ -1,0 +1,1 @@
+Plugins in this folder are not compiled as they are assumed to be apart of the Custom Weapons X core plugin.
