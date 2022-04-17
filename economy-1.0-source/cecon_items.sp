@@ -1,4 +1,4 @@
-//============= Copyright Amper Software 2021, All rights reserved. ============//
+//============= Copyright Creators.TF Team 2021, All rights reserved. ============//
 //
 // Purpose: Loadout, attributes, items module for Creators.TF
 // Custom Economy.

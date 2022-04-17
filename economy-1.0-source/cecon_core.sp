@@ -1,4 +1,4 @@
-//============= Copyright Amper Software 2021, All rights reserved. ============//
+//============= Copyright Creators.TF Team 2021, All rights reserved. ============//
 //
 // Purpose: Core plugin for Creators.TF Custom Economy plugin.
 //
@@ -419,7 +419,7 @@ public any Native_GetAuthorizationKey(Handle plugin, int numParams)
 }
 #endif
 
-//============= Copyright Amper Software, All rights reserved. ============//
+//============= Copyright Creators.TF Team, All rights reserved. ============//
 //
 // Purpose: Creates the connection between website and servers. Allows two-way
 // messaging between servers and website using long-polling technique.
@@ -739,7 +739,7 @@ public bool CoordinatorProcessRequestContent(HTTPRequestHandle request)
 }
 #endif
 
-//============= Copyright Amper Software, All rights reserved. ============//
+//============= Copyright Creators.TF Team, All rights reserved. ============//
 //
 // Purpose: Manages Economy Schema auto-update.
 //

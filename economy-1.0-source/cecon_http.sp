@@ -1,4 +1,4 @@
-//============= Copyright Amper Software, All rights reserved. ============//
+//============= Copyright Creators.TF Team, All rights reserved. ============//
 //
 // Purpose: HTTP extension for Creators.TF economy.
 //

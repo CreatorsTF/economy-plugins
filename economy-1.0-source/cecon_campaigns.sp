@@ -1,5 +1,5 @@
 
-//============= Copyright Amper Software, All rights reserved. ============//
+//============= Copyright Creators.TF Team, All rights reserved. ============//
 //
 // Purpose: Campaigns handler for Creators.TF Economy.
 //

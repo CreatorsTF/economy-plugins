@@ -1,4 +1,4 @@
-//============= Copyright Amper Software 2021, All rights reserved. ============//
+//============= Copyright Creators.TF Team 2021, All rights reserved. ============//
 //
 // Purpose: Handler for the Cosmetic custom item type.
 // 

@@ -1,4 +1,4 @@
-//============= Copyright Amper Software, All rights reserved. ============//
+//============= Copyright Creators.TF Team, All rights reserved. ============//
 //
 // Purpose: Contracts handler for Creators.TF Economy.
 //
